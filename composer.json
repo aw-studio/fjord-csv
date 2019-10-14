@@ -1,0 +1,19 @@
+{
+    "name": "aw-studio/fjord-csv",
+    "description": "Import/Export CSV-Data of your CRUD-Models",
+    "require": {
+        "maatwebsite/excel": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jannes Behrens",
+            "email": "jannes@aw-studio.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AwStudio\\FjordCsv\\": "src"
+        }
+    }
+}
